@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-personal-bot",
+  "version": "1.0.0",
+  "description": "¡Bienvenido a **WhatsApp Personal Bot**! Este proyecto te permite crear un asistente personalizado en WhatsApp que responde mensajes como si fueras tú. Utiliza Node.js, Express y la librería **whatsapp-web.js** para integrar un chatbot con reglas personalizadas y un modelo de lenguaje avanzado.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev":"nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

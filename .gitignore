@@ -1,0 +1,9 @@
+.env
+node_modules
+
+# Ignorar todo el contenido de la carpeta src/services/temp
+temp/
+
+# Asegúrate de mantener archivos necesarios vacíos en temp usando un .gitkeep
+!temp/.gitkeep
+
